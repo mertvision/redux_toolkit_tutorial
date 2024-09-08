@@ -6,7 +6,8 @@ Redux Toolkit provides global state management. Unlike Redux, it has a simpler s
 
 Classic file structure is `store` and `features`. The "store.js" file is in the "store" folder. In the "features" folder, slices are written. You can write the information you want to keep as a global state as a slice component.
 
-* 
+![1](https://github.com/user-attachments/assets/f083cd8a-362b-47b3-9dc7-64bb7990a660)
+
 ---
 
 ## API
@@ -25,7 +26,7 @@ const store = configureStore({
 export default store;
 ```
 
-*
+![2](https://github.com/user-attachments/assets/9c6ca6d9-e71b-43b8-8807-4ff36a9d58e7)
 
 ### 2. `combineReducers()`
 
@@ -45,7 +46,7 @@ const store = configureStore({
 })
 ```
 
-*
+![3](https://github.com/user-attachments/assets/a5994762-8159-4d2e-ab3d-1e67588f64df)
 
 ### 3. `createSlice()`
 
@@ -78,7 +79,7 @@ export const UserReducer = UserSlice.reducer; // export reducers
 export const {loginStart, loginSuccess, logout} = UserSlice.actions; // export actions
 ```
 
-*
+![4](https://github.com/user-attachments/assets/d0e85e2c-d2fb-41e5-a511-cdd8875277f1)
 
 ### 4. `useDispatch()` ve `useSelector()`:
 
@@ -112,10 +113,13 @@ function Home(){
 }
 ```
 
-*
+![5](https://github.com/user-attachments/assets/dfa495b2-58f0-487d-a4fd-08da47e13541)
+
 
 ### 5. Global Provider
 
-*
+![6](https://github.com/user-attachments/assets/25dc5fb6-a796-4a14-ac8c-b120087512e0)
+
+
 
 
